@@ -9,13 +9,13 @@ from urllib.parse import urljoin, urlparse
 from selenium import webdriver
 from lxml import etree
 
-# urls = {"MG":"https://divar.ir/s/tehran/car/mg/",
-#         "peugeot_206":"https://divar.ir/s/tehran/car/peugeot/206/5/",
-#         "Quick":"https://divar.ir/s/tehran/car/quick/",
-#         "Samand_LX":"https://divar.ir/s/tehran/car/samand/lx/",
-#         "Dena_Plus":"https://divar.ir/s/tehran/car/dena/plus/"}
+urls = {"MG":"https://divar.ir/s/tehran/car/mg/",
+       "peugeot_206":"https://divar.ir/s/tehran/car/peugeot/206/5/",
+       "Quick":"https://divar.ir/s/tehran/car/quick/",
+       "Samand_LX":"https://divar.ir/s/tehran/car/samand/lx/",
+       "Dena_Plus":"https://divar.ir/s/tehran/car/dena/plus/",
+       "Tiba_Hatchback":"https://divar.ir/s/tehran/car/tiba/hatchback/ex"}
 
-urls = {"Tiba_Hatchback":"https://divar.ir/s/tehran/car/tiba/hatchback/ex"}
 
 def is_valid(url):
     """
